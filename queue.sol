@@ -3,7 +3,6 @@ pragma AbiHeader expire;
 
 contract queue {
     string[] public arr;
-    //uint8 counter = 0;
 
     constructor() public {
         require(tvm.pubkey() != 0, 101);
