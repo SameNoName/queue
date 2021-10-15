@@ -19,9 +19,6 @@ contract queue {
     function pop_first () public 
     {
         tvm.accept();
-        //delete arr[0];
-        //delete arr[counter];
-        //++counter;
         string[] buffArr;
         for (uint8 i = 1; i < arr.length; ++i)
         {
